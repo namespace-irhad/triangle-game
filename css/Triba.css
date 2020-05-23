@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #f7f1e3;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: .2rem;
+    color: #b33939 !important;
+    background-color: #d1ccc0;
+    height: 3rem;
+    line-height: 3rem !important;
+}
+
+.container-game {
+    /*background-color: #aaa69d;*/
+    background-image: radial-gradient(#fdebd1, #d1ccc0);
+    height: 900px;
+}
+
+.container-game h2 {
+    border-bottom: 1px dotted;
+}
+
+.dropdown-menu {
+    width: 465px !important;
+}
+
+.dropdown-item {
+    text-align: center !important;
+}
+
+.upute-igre {
+    text-align: justify;
+    background-color: #d1ccc0;
+    font-weight: 600;
+    line-height: 2rem;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.info-projekat {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #d1ccc0;
+    width: 100%;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.modal-header {
+    background: #dc3545;
+}
+
+.close {
+    opacity: 1 !important;
+    color: whitesmoke !important;
+}
+
+#myCanvas {
+    border: 1px solid #dc3545;
+    background-color: snow;
+}
+
+.canvas-container {
+    margin: auto;
+    text-align: center;
+    background-color: #aaa69d;
+    background-image: linear-gradient(to bottom, #ffecd2 0%, #d1ccc0 100%);
+}
+
+.button-menu {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.btn-success {
+    margin-bottom: 5px;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.info-igrac {
+    display: flex;
+}
+
+#ime-igraca {
+    margin-bottom: 0;
+    margin-top: 10px;
+    width: 50%;
+    text-align: left;
+    background-image: linear-gradient(to left, #aaa69d 0%, #d1ccc0 100%);
+}
+
+.trenutni-igrac {
+    margin-bottom: 0;
+    margin-top: 10px;
+    width: 50%;
+    background-image: linear-gradient(to right, #aaa69d 0%, #d1ccc0 100%);
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.left-bodovi {
+    background-color: #b33939;
+    color: snow;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    margin-left: 5px;
+    top: 50%;
+}
+
+.nav-link {
+    margin: 5px 0;
+}
+
+.dropdown-item:hover {
+    background-color: #b33939 !important;
+    border-color: #b33939 !important;
+    color: snow !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: #df5f5f !important;
+}
+
+.right-bodovi {
+    background-color: #b33939;
+    color: snow;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin-right: 5px;
+    top: 50%;
+}
+
+
+.position-absolute {
+    top: 45%;
+    left: 42%;
+}
+
+.kraj-dugme {
+    width: 100%;
+    margin-top: 10px;
+}
+
+h5.card-title {
+    text-align: center;
+}
+
+#kraj-igre {
+    visibility: hidden;
+
+}
+
+.gotova-igra-kraj {
+    text-align: center;
+    border: 2px solid coral;
+    padding: 5px;
+}
+
+.game-info {
+    text-align: center;
+    background: burlywood;
+    background: -webkit-linear-gradient(to right, #eacda3, #d6ae7b);
+    background: linear-gradient(to right, #eacda3, #d6ae7b);
+    padding: 5px;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/Triba.css">
+  <!--BOOSTRAP CS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--POPPER ZA DROPDOWN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <!--BOOSTRAP JS-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <!--FONTAWESOME-->
+  <script src="https://kit.fontawesome.com/e3527f898b.js" crossorigin="anonymous"></script>
+
+  <title>Triba | The Standard Game</title>
+</head>
+
+<body>
+  <!--BOOSTRAP MODAL-->
+  <div class="container-menu">
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!--Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Game Menu Options</h4>
+            <h6 class="game-info">Srednja Ploča</h6>
+            <hr />
+            <!--BOOTSTRAP NAV TABS-->
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="btn btn-danger dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">Nova Igra (2
+                igrača)</button>
+              <!--DROPDOWN-->
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="TribaGameMala.html">Standard Mala</a>
+                <a class="dropdown-item disabled text-light bg-secondary" href="TribaGameSrednja.html">Standard Srednja</a>
+                <a class="dropdown-item" href="TribaGameVelika.html">Standard Velika</a>
+                <a class="dropdown-item" href="TribaGameZanimljiva.html">Nestandardna Zanimljiva</a>
+                <a class="dropdown-item" href="TribaGameZanimljiva2.html">Nestandardna Zanimljiva 2</a>
+              </div>
+              <a class="nav-link btn btn-outline-danger" id="v-pills-upute-tab" data-toggle="pill" href="#v-pills-upute"
+                role="tab" aria-controls="v-pills-upute" aria-selected="false">Upute</a>
+              <a class="nav-link btn btn-outline-danger" id="v-pills-projekat-tab" data-toggle="pill"
+                href="#v-pills-projekat" role="tab" aria-controls="v-pills-projekat" aria-selected="false">O
+                projektu</a>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade" id="v-pills-upute" role="tabpanel" aria-labelledby="v-pills-upute-tab">
+                <div class="upute-igre">
+                  Borba između 2 iskusna igrača u ovoj fantastičnoj igrici. Spremite se da budete šokirani.
+                  Igrica se sastoji od mreže mxn tačaka, gdje su m i n parni prirodni brojevi. Dva igrača igraju
+                  naizmjenično. Svaki igrač u svom potezu bira trougao tako što izabere tri tačke iz mreže koje ne
+                  leže na istoj pravoj. Trouglovi se ne smiju sjeći, te ne smiju dva trougla imati zajednički vrh.
+                  Trouglovi se mogu nalaziti jedan unutar drugog. Igra je završena kada jedan igrač ostane bez
+                  poteza. Igrač koji je ostao bez poteza gubi.
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-projekat" role="tabpanel" aria-labelledby="v-pills-projekat-tab">
+                <label class='info-projekat'>Niz informacija o projektu:</label>
+                <ul class="list-group">
+                  <li class="list-group-item"><strong>Predmet:</strong> Web Programiranje</li>
+                  <li class="list-group-item"><strong>Profesor:</strong> Prof.Dr. Elmedin Selmanović</li
+                    class="list-group-item">
+                  <li class="list-group-item"><strong>Asistent:</strong> Sead Delalić</li>
+                  <li class="list-group-item"><strong>Studij:</strong> Teorijske Kompjuterske Nauke</li>
+                  <li class="list-group-item"><strong>Fakultet:</strong> Prirodno matematički fakultet</li>
+                  <li class="list-group-item"><strong>Naziv Projekta:</strong> Projekat 2 - Triba Igra</li>
+                  <li class="list-group-item"><strong>Podaci o Autoru:</strong><br> Žena u Indiji mi je, čitajući dlan,
+                    rekla da sam suđen da putujem svijetom i upoznam razne ljude. Zato sam danas ovdje.</li>
+                  <li class="list-group-item"><strong>Ime i Prezime:</strong> Irhad Fejzić</li>
+                  <li class="list-group-item"><strong>Kontakt:</strong><br><i class="fas fa-envelope-square"></i>
+                    irhad.fejzic@gmail.com <br> <i class="fab fa-instagram"></i> fizzz_o<br><i
+                      class="fab fa-facebook-f"></i> Irhad Fejzic</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <span>Triba Verzija 0.0.1 (Alpha)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-game">
+    <h2>Triba <i class="fas fa-dice-d20"></i> The Game</h2>
+    <div class="button-menu">
+      <button type="button" class="btn btn-danger dugme-menu" data-toggle="modal" data-target="#myModal">Game
+        Menu</button>
+    </div>
+
+    <div id="kraj-igre" class="card position-absolute" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Igra Je Gotova</h5>
+        <h6 class='gotova-igra-kraj'><strong>Pobjednik: </strong><span id='pobjednik-kraj'></span></h6>
+        <button class="btn btn-danger kraj-dugme" onclick="igrajPonovo()">Igrajte Ponovo</button>
+        <button class="btn btn-secondary kraj-dugme" onclick="igraDosta()">Vrati se u Menu</button>
+      </div>
+    </div>
+    <!--Provjera bodova i igraca sa strane-->
+    <aside>
+      <span class='left-bodovi'>
+        <h3 id='trenutni-igraciA'></h3>
+        <h6>BODOVI:</h6>
+        <h6 id='trenutni-bodoviA'></h6>
+      </span>
+      <span class='right-bodovi'>
+        <h3 id='trenutni-igraciB'></h3>
+        <h6>BODOVI:</h6>
+        <h6 id='trenutni-bodoviB'></h6>
+      </span>
+    </aside>
+
+    <div class="canvas-container">
+      <canvas id="myCanvas" width="1600" height="800"></canvas>
+    </div>
+  </div>
+  <!--Info o Trenutnom Igracu-->
+  <div class='info-igrac'>
+    <h5 class='trenutni-igrac'>Trenutno Igra:  </h5>
+    <h2 id='ime-igraca'></h2>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      window.scrollTo(0, document.body.scrollHeight);
+    });
+
+    $(window).on('load', function () {
+      $('#myModal').modal('show');
+    });
+
+    function igrajPonovo() {
+      document.getElementById("kraj-igre").style.visibility = "hidden";
+    }
+
+    function igraDosta() {
+      $('#myModal').modal('show');
+    }
+  </script>
+
+  <script>
+    var vrijednostX = 66;
+    var vrijednostY = 65;
+    var brojX = 15;
+    var brojY = 10;
+    var udaljenostX = 350;
+    var udaljenostY = 115;
+    var zanimljiva = false;
+    var zanimljiva2 = false;
+  </script>
+
+  <script src="../javascript/tribaIgra.js"></script>
+  </script>
+
+
+</body>
+
+</html>
